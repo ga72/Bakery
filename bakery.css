@@ -1,0 +1,140 @@
+/* float  بيتعمل لكل العناصر اللي عايز اجيبهم جنب بعض مش لعنصر واحد  */
+/* مفيس  margin , padding  بالسالب */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* parent */
+.h {
+    background-image: url("https://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+}
+
+/* child */
+.Home {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.877);
+    margin-top: 268px;
+}
+
+.btn {
+    height: 55px;
+    width: 130px;
+    border-radius: 5px;
+    margin: 13px;
+    font-weight: bolder;
+    font-size: 16px;
+
+}
+
+.btn1 {
+    background-color: rgb(142, 119, 84);
+    border-style: none;
+
+
+}
+
+.btn2 {
+    background-color: transparent;
+    border-color: antiquewhite;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.l,
+.c {
+    color: whitesmoke;
+}
+
+.w {
+    float: right;
+    margin-top: 160px;
+}
+
+.clr {
+    clear: both;
+}
+
+.section3 {
+    margin-top: 100px;
+    background-color: #f8f8f8;
+    padding: 180px;
+    font-family: "Alegreya Sans";
+
+
+}
+
+.im {
+    float: right;
+    margin-top: -180px;
+    /* padding-right: 100px; */
+
+}
+
+.lo {
+    color: #686868;
+    font-weight: 50px;
+}
+
+.section4 {
+    margin: 100px;
+}
+
+.o {
+    text-align: center;
+
+}
+
+.mem {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    color: #686868;
+}
+
+.imga {
+    width: 100%;
+}
+
+.child4 {
+    margin-top: 60px;
+}
+
+.space-line {
+    line-height: 31px;
+}
+
+.mapBox {
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+.section5 {
+    background-color: #403d38;
+    margin-top: 100px; 
+    padding: 100px;
+    
+}
+.width{
+    width: 90%;
+    margin: auto;
+}
+.section5 h2{
+color: #fff;
+margin-bottom: 25px;
+}
+.cont{
+    float: left;
+    width: 23.5%;
+    color: #969696;
+}
+
